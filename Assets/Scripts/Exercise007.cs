@@ -4,15 +4,20 @@ using UnityEngine;
 
 public class Exercise007 : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public int numX;
     void Start()
     {
-        
+        Absolut(numX);
     }
-
-    // Update is called once per frame
-    void Update()
+    private void Absolut(int x)
     {
-        
+        if(x > 0)
+        {
+            Debug.Log(message: $"{x}");
+        }
+        if (x < 0)
+        {
+            Debug.Log(message: $"{-x}");
+        }
     }
 }

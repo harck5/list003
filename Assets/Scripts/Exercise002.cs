@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class Exercise002 : MonoBehaviour
 {
+    public int num;
     void Start()
     {
-        numC();
+        numC(num);
     }
     private bool numC(int x)
     {

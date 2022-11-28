@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class Exercise001 : MonoBehaviour
 {
-        public string letter;
+        public string letterX;
     void Start()
     {
-            letterC();
+            letterC(letterX);
     }
-    private bool letterC()
+    private bool letterC(string letter)
     {
         if (letter == "a" || letter == "e" || letter == "i" || letter == "o" || letter == "u")
         {

@@ -338,7 +338,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79b66612eb7ae904793b47e4a500fec4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   letterX: a
+=======
+  letter: c
+>>>>>>> Stashed changes
 --- !u!135 &1860065588
 SphereCollider:
   m_ObjectHideFlags: 0
